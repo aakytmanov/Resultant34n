@@ -1,0 +1,6 @@
+read `Resultant34n.txt`: with(Resultant34n):
+
+simplify(Res3d([-a^3, 0, 0], [1, b, b^2/2!, b^3/3!, b^4/4!, b^5/5!, b^6/6!]));
+Res4d([0, 0, -1, 0], [2, 0, 0, 0, 0, 1]);
+simplify(Res3df(z^3-a^3, exp(b*z), z, 7));
+Res4df(z^4-z^2, z^5+2, z, 6);
